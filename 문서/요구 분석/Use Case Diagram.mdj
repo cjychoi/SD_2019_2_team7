@@ -1083,7 +1083,7 @@
 											"top": 266.5,
 											"width": 75,
 											"height": 13,
-											"text": "여행지 제시"
+											"text": "여행지 출력"
 										},
 										{
 											"_type": "LabelView",
@@ -1282,7 +1282,7 @@
 											"top": 322.5,
 											"width": 75,
 											"height": 13,
-											"text": "관광지 제시"
+											"text": "관광지 출력"
 										},
 										{
 											"_type": "LabelView",
@@ -1481,7 +1481,7 @@
 											"top": 378.5,
 											"width": 84,
 											"height": 13,
-											"text": "주변 교통 제시"
+											"text": "주변 교통 출력"
 										},
 										{
 											"_type": "LabelView",
@@ -1876,7 +1876,7 @@
 											"top": 490,
 											"width": 84,
 											"height": 13,
-											"text": "최적 경로 제시"
+											"text": "최적 경로 출력"
 										},
 										{
 											"_type": "LabelView",
@@ -4945,7 +4945,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFtg8uF9bpXC+M="
 					},
-					"name": "여행지 제시",
+					"name": "여행지 출력",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -4995,7 +4995,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFtg8uF9bpXC+M="
 					},
-					"name": "관광지 제시",
+					"name": "관광지 출력",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -5045,7 +5045,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFtg8uF9bpXC+M="
 					},
-					"name": "주변 교통 제시",
+					"name": "주변 교통 출력",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -5145,7 +5145,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFtg8uF9bpXC+M="
 					},
-					"name": "최적 경로 제시",
+					"name": "최적 경로 출력",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
