@@ -1,10 +1,16 @@
-const express = require('express');
+var express = require('express');
+const bodyParser = require('bpdy-parser');
+const fs = require('fs');
+const mysql = require('mysql');
+const multer = require('multer');
+var app = express();
+var router = require('./router/main')(app);
 
-const app = express();
-const PORT = process.env.PORT = 15000;
+app.set('views', __dirname + '/views');
+app.set('view engine', 'ejs');
+app.engine('html', require('ejs').renderFile);
 
-app.use(express.static('public'));
-
-app.listen(PORT, () => {
-  console.log('server is running at: ', PORT);
+var server = app.listen(3000, function(){
+    console.log("Express server has started on port 3000")
 });
+
