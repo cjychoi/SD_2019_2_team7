@@ -5,7 +5,7 @@
 	  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 	  <link href="https://fonts.googleapis.com/css?family=Gaegu&display=swap" rel="stylesheet">
     <meta charset="utf-8">
-    <title>서울</title>
+    <title>경로화면</title>
 	  <style>
 	  body{
 	   margin: 0 auto;
@@ -32,14 +32,26 @@
   <p class="body">
   <pre style="font-size :40px; font-family: 'Jua', sans-serif; color: black;"> 서울 Seoul</pre>
 
+  <pre style="font-size :40px; font-family: 'Jua', sans-serif; color: black;"> 최단경로</pre>
+
   <script type="text/javascript" contentType="charset=UTF-8" pageEncoding="UTF-8">
-    var temp = decodeURI(location.href)
-    temp = temp.split("?");
-    data=temp[1].split(":");
-    name = data[0];
-    content = data[1];
-    document.write(name + " " + content);
-    var request = new Request();
+    var add = decodeURI(location.href)
+    var temp = (add.substring(add.indexOf("?")+1, add.length)).split("&");
+    //name = data[0];
+    //content = data[1];
+    for(var i=0; i<temp.length; i++){
+      temp[i] = temp[i].substring(temp[i].indexOf("=")+1, temp[i].length);
+    }
+
+
+    //<FONT SIZE ="7" style="font-weight:bold;">
+    /*for(i=0; i<temp.length; i++){
+      document.write((temp[i]+" " ).fontsize(6));
+    }*/
+    document.write((temp[0]+" → ").fontsize(6));
+    document.write((temp[2]+" → ").fontsize(6));
+    document.write((temp[1]).fontsize(6));
+
   </script>
 
   </body>

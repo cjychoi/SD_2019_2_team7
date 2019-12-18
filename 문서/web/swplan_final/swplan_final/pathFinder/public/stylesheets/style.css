@@ -1,0 +1,32 @@
+body{
+	margin: 20;
+	background-color: silver;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+	padding: 20px;
+}
+		
+header, footer{		
+	font-family: 'Shadows Into Light', cursive; 
+	color: #FFFFF0;
+	font-size: 30px; 
+	background-color: black;
+}
+
+div.jb-wrap{
+	width: 80%;
+	margin: 10px auto;
+	border: 1px #000000;
+}
+
+div.jb-wrap img{
+	width: 100%;
+	vertical-align: middle;
+}
+
+div.jb-wrap text{
+	font-weight:bold; 
+	font-family: 'Gaegu', cursive;
+	text-align: center;
+}

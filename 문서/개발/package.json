@@ -1,0 +1,15 @@
+{
+  "name": "pathfinder",
+  "version": "1.0.0",
+  "description": "html -> pug파일로 변형\r img 파일 추가\r javascript 작성 중",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-mysql": "^0.4.2"
+  }
+}
