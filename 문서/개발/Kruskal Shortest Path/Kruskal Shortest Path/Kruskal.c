@@ -4,7 +4,7 @@
 #pragma warning(disable: 4996)
 #define MAX_VERTICES 100
 #define MAX_ELEMENT 100
-#define NODE_NUM 5
+#define NODE_NUM 5 // 변경 - 여행지 수
 
 typedef struct {
 	float key;
